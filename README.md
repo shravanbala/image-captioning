@@ -2,8 +2,7 @@
 
 This project implements an image captioning model using a Vision Transformer (ViT) as the image encoder and a BERT-based model as the text decoder.
 
-Generated caption for an image:
-<p float="left">
+<p float="center">
   <img src="assets/image1.jpeg" alt="Generated Caption 1" height="300"/>
   <img src="assets/image2.jpeg" alt="Generated Caption 2" height="300"/>
 </p>
@@ -66,7 +65,7 @@ python main.py --mode evaluate
 
 ## Future Improvements
 1) Train with MSCOCO Dataset: Extend training to include the MSCOCO dataset, which provides a larger and more diverse set of images and captions.
-2) Explore other architectures: Vision Mamba or CNN Backbone. CNN Backbone, which is less data-hungry compared to vision transformers.
+2) Explore other architectures: Instead of the data hungry ViT, would like to experiment with Vision MAMBA model or try CNN-based backbone to extract features from images.
 
 ## License
 
