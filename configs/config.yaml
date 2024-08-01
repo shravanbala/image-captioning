@@ -1,0 +1,23 @@
+# Dataset
+csv_file: '/home/shravan/Desktop/Project/image_caption/data/flickr30k_images/results.csv'
+image_folder: '/home/shravan/Desktop/Project/image_caption/data/flickr30k_images'
+
+# Model
+vit_layers: 8
+decoder_layers: 8
+hidden_size: 512
+intermediate_size: 2048
+num_attention_heads: 8
+
+# Training
+batch_size: 32
+num_epochs: 20
+learning_rate: 0.0001
+max_length: 64
+
+# Evaluation
+beam_size: 4
+
+# Paths
+model_save_path: 'results/image_captioning_model.pth'
+model_load_path: 'results/image_captioning_model.pth'
